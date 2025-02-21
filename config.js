@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Kerogs',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,10 +26,10 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: 'd6108725bf5ad5daa4045b59b5751dc3', // Write here your API Key
+	weatherIcons: 'Onedark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'fr', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
@@ -53,27 +53,27 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://gmail.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Google',
+			icon: 'scan-search',
+			link: 'https://www.google.com/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/kerogs',
 		},
 		{
 			id: '5',
@@ -83,50 +83,50 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Soundcloud',
+			icon: 'music',
+			link: 'http://soundcloud.com/',
 		},
 	],
 
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
+	// secondButtonsContainer: [
+	// 	{
+	// 		id: '1',
+	// 		name: 'Music',
+	// 		icon: 'headphones',
+	// 		link: 'https://open.spotify.com',
+	// 	},
+	// 	{
+	// 		id: '2',
+	// 		name: 'twitter',
+	// 		icon: 'twitter',
+	// 		link: 'https://twitter.com/',
+	// 	},
+	// 	{
+	// 		id: '3',
+	// 		name: 'bot',
+	// 		icon: 'bot',
+	// 		link: 'https://discord.com/app',
+	// 	},
+	// 	{
+	// 		id: '4',
+	// 		name: 'Amazon',
+	// 		icon: 'shopping-bag',
+	// 		link: 'https://amazon.com/',
+	// 	},
+	// 	{
+	// 		id: '5',
+	// 		name: 'Hashnode',
+	// 		icon: 'pen-tool',
+	// 		link: 'https://hashnode.com/',
+	// 	},
+	// 	{
+	// 		id: '6',
+	// 		name: 'Figma',
+	// 		icon: 'figma',
+	// 		link: 'https://figma.com/',
+	// 	},
+	// ],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
@@ -135,7 +135,7 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'coffee',
 			id: '1',
 			links: [
 				{
@@ -157,24 +157,24 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'earth-lock',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Emby',
+					link: 'http://localhost:8096/web/index.html#!/home',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Server',
+					link: '.',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'LocalApp',
+					link: 'http://localhost:8113',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Localhost',
+					link: 'http://localhost/',
 				},
 			],
 		},
